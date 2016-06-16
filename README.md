@@ -15,7 +15,7 @@ The program takes as input:
 * a *string* that will be checked for belonging in the grammar
 * *-t* as an optional argument to print on console the derivation tree
 
-It returns a boolean according to the belonging of the string in the grammar.
+It returns a boolean according to the belonging of the string inside the grammar.
 ## Grammar ##
 The grammar must be in ChomskyNormalForm and in the following format:
 
@@ -28,7 +28,7 @@ The grammar must be in ChomskyNormalForm and in the following format:
 
 Where *S,A,B* are Variables and *a,b* are Terminals.
 It mush have a starting symbol 'S'.
-Supports only single char terminals
+Supports single char terminals only.
 ## Extra ##
 * tester.sh reads every newline in the file *strings* and feeds it to the algorithm
 with the *-t* flag.
